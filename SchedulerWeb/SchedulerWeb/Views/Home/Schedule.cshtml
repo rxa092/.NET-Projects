@@ -1,0 +1,724 @@
+﻿@model IEnumerable<SchedulerWeb.Models.slot>
+
+@{
+    ViewBag.Title = "Schedule";
+}
+
+<h2>Schedule</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    @*<tr>
+        <th>Day</th>
+        <th>Time Slot</th>
+        <th>Room</th>
+        <th>Faculty</th>
+        <th>Class ID</th>
+        <th>Course</th>
+    </tr>*@
+    <tr>
+        <td>Monday</td>
+        <td>1</td>
+        @{int column = 0;}
+        @foreach (var item in Model)
+        {
+
+            if (item.Days.ID == 1 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column++;
+                }
+            }
+
+        }
+        @for (int i = column; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Monday</td>
+        <td width="150" height="150">2</td>
+        @{int column1 = 0;}
+
+        @foreach (var item in Model)
+        {
+
+            if (item.Days.ID == 1 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column1++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column1++;
+                }
+            }
+
+        }
+        @for (int i = column1; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Monday</td>
+        <td width="150" height="150">3</td>
+        @{int column2 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 1 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column2++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column2++;
+                }
+            }
+
+        }
+        @for (int i = column2; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Tuesday</td>
+        <td width="150" height="150">1</td>
+        @{int column3 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 2 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column3++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column3++;
+                }
+            }
+
+        }
+        @for (int i = column3; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Tuesday</td>
+        <td width="150" height="150">2</td>
+        @{int column4 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 2 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column4++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column4++;
+                }
+            }
+
+        }
+        @for (int i = column4; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Tuesday</td>
+        <td width="150" height="150">3</td>
+        @{int column5 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 2 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column5++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column5++;
+                }
+            }
+
+        }
+        @for (int i = column5; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Wednesday</td>
+        <td width="150" height="150">1</td>
+        @{int column6 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 3 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column6++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column6++;
+                }
+            }
+
+        }
+        @for (int i = column6; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Wednesday</td>
+        <td width="150" height="150">2</td>
+        @{int column7 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 3 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column7++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column7++;
+                }
+            }
+
+        }
+        @for (int i = column7; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Wednesday</td>
+        <td width="150" height="150">3</td>
+        @{int column8 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 3 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column8++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column8++;
+                }
+            }
+
+        }
+        @for (int i = column8; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td width="150" height="150">Thursday</td>
+        <td width="150" height="150">1</td>
+        @{int column9 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 4 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td width="150" height="150" class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column9++;
+                }
+                else
+                {
+                    <td width="150" height="150">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column9++;
+                }
+            }
+
+        }
+        @for (int i = column9; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>2</td>
+        @{int column10 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 4 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column10++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column10++;
+                }
+            }
+
+        }
+        @for (int i = column10; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Thursday</td>
+        <td>3</td>
+        @{int column11 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 4 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column11++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column11++;
+                }
+            }
+
+        }
+        @for (int i = column11; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Saturday</td>
+        <td>1</td>
+        @{int column12 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 5 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column12++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column12++;
+                }
+            }
+
+        }
+        @for (int i = column12; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Saturday</td>
+        <td>2</td>
+        @{int column13 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 5 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column13++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column13++;
+                }
+            }
+
+        }
+        @for (int i = column13; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Saturday</td>
+        <td>3</td>
+        @{int column14 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 5 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column14++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column14++;
+                }
+            }
+
+        }
+        @for (int i = column14; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Sunday</td>
+        <td>1</td>
+        @{int column15 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 6 && item.Timeslots.ID == 1)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column15++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column15++;
+                }
+            }
+
+        }
+        @for (int i = column15; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Sunday</td>
+        <td>2</td>
+        @{int column16 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 6 && item.Timeslots.ID == 2)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column16++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column16++;
+                }
+            }
+
+        }
+        @for (int i = column16; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    <tr>
+        <td>Sunday</td>
+        <td>3</td>
+        @{int column17 = 0;}
+
+        @foreach (var item in Model)
+        {
+            if (item.Days.ID == 6 && item.Timeslots.ID == 3)
+            {
+                if (item.clash == true)
+                {
+                    <td class="danger">
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column17++;
+                }
+                else
+                {
+                    <td>
+                        Room : @item.room.Name <br />
+                        Faculty : @item.classid.teacher.Name <br />
+                        Class ID : @item.classid.classes.ID <br />
+                        Course : @item.classid.classes.courses.Name
+                    </td>
+                    column17++;
+                }
+            }
+
+        }
+        @for (int i = column17; i < 9; i++)
+        {
+            <td width="150" height="150"></td>
+        }
+    </tr>
+    
+    @*if (item.clash == true)
+        {
+            <tr class="danger">
+                <td>@item.Days.Name</td>
+                <td>@item.Timeslots.Name</td>
+                <td>@item.room.Name</td>
+                <td>@item.classid.teacher.Name</td>
+                <td>@item.classid.classes.ID</td>
+                <td>@item.classid.classes.courses.Name</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td>@item.Days.Name</td>
+                <td>@item.Timeslots.Name</td>
+                <td>@item.room.Name</td>
+                <td>@item.classid.teacher.Name</td>
+                <td>@item.classid.classes.ID</td>
+                <td>@item.classid.classes.courses.Name</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                </td>
+            </tr>
+        }*@
+
+
+
+</table>
