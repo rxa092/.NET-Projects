@@ -1,0 +1,80 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.MouldReport>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.plates)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mm.dateofinstallation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mm.Dimension)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.mm.lifecycle)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.mm.mouldstdcycle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mm.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mm.statusname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mm.vendorname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.plates)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.dateofinstallation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.Dimension)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.mm.lifecycle)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.mouldstdcycle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.statusname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mm.vendorname)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Update", new {  id=item.reportid  }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.reportid  })
+        </td>
+    </tr>
+}
+
+</table>

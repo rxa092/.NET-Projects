@@ -1,0 +1,98 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.SoModel>
+
+@{
+    ViewBag.Title = "So_view";
+}
+
+<h2>Last Created Sales Order</h2>
+
+
+@Html.LabelFor(model => model.First().Created)
+@Html.DisplayFor(model => model.First().Created)
+@Html.LabelFor(model => model.First().ClientName)
+@Html.DisplayFor(model => model.First().ClientName)
+@Html.LabelFor(model => model.First().destination)
+@Html.DisplayFor(model => model.First().destination)
+@Html.LabelFor(model => model.First().Date)
+@Html.DisplayFor(model => model.First().Date)
+@Html.LabelFor(model => model.First().po)
+@Html.DisplayFor(model => model.First().po)
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tax)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pallets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.final)
+        </th>
+      <!--  <th>
+            @Html.DisplayNameFor(model => model.Item)
+        </th>
+        -->
+        <th>
+            @Html.DisplayNameFor(model => model.remarks)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pallets)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.final)
+        </td>
+     <!--   <td>
+            @Html.DisplayFor(modelItem => item.Item)
+        </td> -->
+        <td>
+            @Html.DisplayFor(modelItem => item.remarks)
+        </td>
+    </tr>
+
+}
+
+</table>
+
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Finalize SO" class="btn btn-default" onclick="@("window.location.href='" + Url.Action("ShowSo","So") + "'");" />
+    </div>
+
+
+    <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Delete SO" class="btn btn-default" onclick="@("window.location.href='" + Url.Action("So_delete","Do") + "'");" />
+    </div>
+</div>
+

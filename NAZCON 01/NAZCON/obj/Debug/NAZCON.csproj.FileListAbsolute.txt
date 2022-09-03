@@ -1,0 +1,729 @@
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\ApplicationInsights.config
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\csc.exe
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\csc.exe.config
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\csc.rsp
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\csi.exe
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\csi.rsp
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.AppContext.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\vbc.exe
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\vbc.exe.config
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\vbc.rsp
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\NAZCON.dll.config
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\NAZCON.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\NAZCON.pdb
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Antlr3.Runtime.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\EntityFramework.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\EntityFramework.SqlServer.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.Web.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Newtonsoft.Json.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Owin.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Net.Http.Formatting.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Helpers.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Http.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Http.WebHost.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Mvc.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Optimization.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Razor.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\WebGrease.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Helpers.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Mvc.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Optimization.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Razor.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Antlr3.Runtime.pdb
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Newtonsoft.Json.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Net.Http.Formatting.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Http.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\System.Web.Http.WebHost.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\EntityFramework.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\EntityFramework.SqlServer.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\bin\Microsoft.AI.Web.xml
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\obj\Debug\NAZCON.dll
+c:\users\jawad\documents\visual studio 2017\Projects\NAZCON\NAZCON\obj\Debug\NAZCON.pdb
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\ApplicationInsights.config
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe.config
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.rsp
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csi.exe
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csi.rsp
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.AppContext.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe.config
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.rsp
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.dll.config
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.pdb
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Owin.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Razor.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\WebGrease.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Razor.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.pdb
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.xml
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.dll
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.pdb
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+C:\Users\Jawad\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.Cache
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\ApplicationInsights.config
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe.config
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csc.rsp
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csi.exe
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\csi.rsp
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.AppContext.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe.config
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\vbc.rsp
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.dll.config
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\NAZCON.pdb
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Owin.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Razor.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\WebGrease.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Razor.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.pdb
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.xml
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.Cache
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.pdb
+G:\New folder\NAZCON\NAZCON\bin\ApplicationInsights.config
+G:\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe
+G:\New folder\NAZCON\NAZCON\bin\roslyn\csc.exe.config
+G:\New folder\NAZCON\NAZCON\bin\roslyn\csc.rsp
+G:\New folder\NAZCON\NAZCON\bin\roslyn\csi.exe
+G:\New folder\NAZCON\NAZCON\bin\roslyn\csi.rsp
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.AppContext.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.Collections.Immutable.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\System.Reflection.Metadata.dll
+G:\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe
+G:\New folder\NAZCON\NAZCON\bin\roslyn\vbc.exe.config
+G:\New folder\NAZCON\NAZCON\bin\roslyn\vbc.rsp
+G:\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe
+G:\New folder\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe.config
+G:\New folder\NAZCON\NAZCON\bin\NAZCON.dll.config
+G:\New folder\NAZCON\NAZCON\bin\NAZCON.dll
+G:\New folder\NAZCON\NAZCON\bin\NAZCON.pdb
+G:\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.dll
+G:\New folder\NAZCON\NAZCON\bin\EntityFramework.dll
+G:\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.WebForms.DLL
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+G:\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.dll
+G:\New folder\NAZCON\NAZCON\bin\Owin.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Http.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Razor.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.dll
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.dll
+G:\New folder\NAZCON\NAZCON\bin\WebGrease.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.SqlServer.Types.dll
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Helpers.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Mvc.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Optimization.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Razor.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.xml
+G:\New folder\NAZCON\NAZCON\bin\Antlr3.Runtime.pdb
+G:\New folder\NAZCON\NAZCON\bin\Newtonsoft.Json.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Net.Http.Formatting.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Http.xml
+G:\New folder\NAZCON\NAZCON\bin\System.Web.Http.WebHost.xml
+G:\New folder\NAZCON\NAZCON\bin\EntityFramework.xml
+G:\New folder\NAZCON\NAZCON\bin\EntityFramework.SqlServer.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+G:\New folder\NAZCON\NAZCON\bin\Microsoft.AI.Web.xml
+G:\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+G:\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+G:\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.Cache
+G:\New folder\NAZCON\NAZCON\obj\Debug\RdlCompile.cache
+G:\New folder\NAZCON\NAZCON\obj\Debug\RdlCompile.compiled
+G:\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.dll
+G:\New folder\NAZCON\NAZCON\obj\Debug\NAZCON.pdb
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\RdlCompile.cache
+C:\Users\Muhammad Raza\Desktop\New folder\NAZCON\NAZCON\obj\Debug\RdlCompile.compiled
+E:\Raza Project\NAZCON\NAZCON\bin\ApplicationInsights.config
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\csc.exe
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\csc.exe.config
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\csc.rsp
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\csi.exe
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\csi.rsp
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.AppContext.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.Collections.Immutable.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\System.Reflection.Metadata.dll
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\vbc.exe
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\vbc.exe.config
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\vbc.rsp
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe
+E:\Raza Project\NAZCON\NAZCON\bin\roslyn\VBCSCompiler.exe.config
+E:\Raza Project\NAZCON\NAZCON\bin\NAZCON.dll.config
+E:\Raza Project\NAZCON\NAZCON\bin\NAZCON.dll
+E:\Raza Project\NAZCON\NAZCON\bin\NAZCON.pdb
+E:\Raza Project\NAZCON\NAZCON\bin\Antlr3.Runtime.dll
+E:\Raza Project\NAZCON\NAZCON\bin\EntityFramework.dll
+E:\Raza Project\NAZCON\NAZCON\bin\EntityFramework.SqlServer.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.Web.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Newtonsoft.Json.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Owin.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Net.Http.Formatting.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Helpers.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Http.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Http.WebHost.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Mvc.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Optimization.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Razor.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.dll
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.dll
+E:\Raza Project\NAZCON\NAZCON\bin\WebGrease.dll
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Helpers.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Mvc.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Optimization.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Razor.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.Deployment.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.WebPages.Razor.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Antlr3.Runtime.pdb
+E:\Raza Project\NAZCON\NAZCON\bin\Newtonsoft.Json.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Net.Http.Formatting.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Http.xml
+E:\Raza Project\NAZCON\NAZCON\bin\System.Web.Http.WebHost.xml
+E:\Raza Project\NAZCON\NAZCON\bin\EntityFramework.xml
+E:\Raza Project\NAZCON\NAZCON\bin\EntityFramework.SqlServer.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.ApplicationInsights.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+E:\Raza Project\NAZCON\NAZCON\bin\Microsoft.AI.Web.xml
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.Cache
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.csproj.CoreCompileInputs.cache
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.dll
+E:\Raza Project\NAZCON\NAZCON\obj\Debug\NAZCON.pdb
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\ApplicationInsights.config
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\DelieveryChallanReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\GatePassReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\SalesOrderReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\DOReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\CementReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\ChequeReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\DieselReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\DipatchReportWithoutRate.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\DIpatchReportWithRate.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\InwardRawMaterial.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\ProductionReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\StockReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Reports\StoreReport.rdlc
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\NAZCON.dll.config
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\NAZCON.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\NAZCON.pdb
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Antlr3.Runtime.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\EntityFramework.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\EntityFramework.SqlServer.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.Web.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ApplicationInsights.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.DataVisualization.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.WebForms.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Newtonsoft.Json.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Owin.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Net.Http.Formatting.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Helpers.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Http.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Http.WebHost.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Mvc.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Optimization.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Razor.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.Deployment.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.Razor.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\WebGrease.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Helpers.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Mvc.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Optimization.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Razor.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.Deployment.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.WebPages.Razor.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Antlr3.Runtime.pdb
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Newtonsoft.Json.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Net.Http.Formatting.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Http.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\System.Web.Http.WebHost.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\EntityFramework.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\EntityFramework.SqlServer.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.ApplicationInsights.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\bin\Microsoft.AI.Web.xml
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.Cache
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\RdlCompile.cache
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\RdlCompile.compiled
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\NAZCON.dll
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\NAZCON.pdb
+F:\vs\NAZCON 01\NAZCON 01\NAZCON\obj\Debug\NAZCON.csprojResolveAssemblyReference.cache
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.csprojAssemblyReference.cache
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.Migrations.Addpagestablewithrelationofroles.resources
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.csproj.GenerateResource.cache
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.csproj.CoreCompileInputs.cache
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.dll
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.pdb
+D:\Visual Studio\NAZCON 01\NAZCON\bin\ApplicationInsights.config
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\DelieveryChallanReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\GatePassReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\SalesOrderReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\DOReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\CementReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\ChequeReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\DieselReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\DipatchReportWithoutRate.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\DIpatchReportWithRate.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\InwardRawMaterial.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\ProductionReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\StockReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Reports\StoreReport.rdlc
+D:\Visual Studio\NAZCON 01\NAZCON\bin\NAZCON.dll.config
+D:\Visual Studio\NAZCON 01\NAZCON\bin\NAZCON.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\NAZCON.pdb
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Antlr3.Runtime.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\EntityFramework.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\EntityFramework.SqlServer.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.DependencyCollector.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.Web.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.WindowsServer.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ApplicationInsights.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Google.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.Common.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Newtonsoft.Json.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Owin.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Net.Http.Formatting.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Helpers.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Http.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Http.WebHost.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Mvc.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Optimization.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Razor.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.Deployment.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.Razor.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\WebGrease.dll
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Helpers.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Mvc.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Optimization.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Razor.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.Deployment.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.WebPages.Razor.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Antlr3.Runtime.pdb
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Newtonsoft.Json.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Net.Http.Formatting.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Http.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\System.Web.Http.WebHost.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\EntityFramework.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\EntityFramework.SqlServer.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Google.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.ApplicationInsights.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.DependencyCollector.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.WindowsServer.xml
+D:\Visual Studio\NAZCON 01\NAZCON\bin\Microsoft.AI.Web.xml
+D:\Visual Studio\NAZCON 01\NAZCON\obj\Debug\NAZCON.csproj.CopyComplete

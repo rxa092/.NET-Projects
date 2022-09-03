@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Nazir Concrete</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        body {
+            margin-top: 50px;
+        }
+
+        .glyphicon {
+            margin-right: 10px;
+        }
+
+        .panel-body {
+            padding: 0px;
+        }
+
+            .panel-body table tr td {
+                padding-left: 15px;
+            }
+
+            .panel-body .table {
+                margin-bottom: 0px;
+            }
+    </style>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Nazir Concrete", "Index", "Dashboard", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.CheckPageAccess("AccountRegister"))
+                    {
+                        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="pwd-container">
+            @RenderBody()
+        </div>
+    </div>
+
+
+    <div class="container-fluid body-content">
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Nazir Concrete</p>
+            <p>Developed By: <a href="https://www.facebook.com/mohd.rxa">Muhammad Raza</a></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

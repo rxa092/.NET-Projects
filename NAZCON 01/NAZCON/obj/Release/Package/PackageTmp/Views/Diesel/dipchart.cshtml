@@ -1,0 +1,78 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.Diesel>
+
+@{
+    ViewBag.Title = "dipchart";
+}
+
+<h2>Dip Chart</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpeningDiesel)
+        </th>
+        <th>
+            @Html.Label("Opening Dip LITRE")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DieselDispensery)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Balance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DipRecordin)
+        </th>
+        <th>
+            @Html.Label("Closing Dip LITRE")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td width="10%">
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        @if (item.OpeningDiesel > 0)
+        {<td>
+            @Html.DisplayFor(modelItem => item.OpeningDiesel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentReading)
+        </td>}
+        @if(item.OpeningDiesel == 0)
+        {
+            <td></td>
+            <td></td>
+        }
+        <td>
+            @Html.DisplayFor(modelItem => item.DieselDispensery)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Balance)
+        </td>
+        @if (item.DipRecordin > 0)
+        {<td>
+            @Html.DisplayFor(modelItem => item.DipRecordin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastReading)
+        </td>
+        }
+        @if(item.DipRecordin == 0)
+        {
+            <td></td>
+            <td></td>
+        }
+
+    </tr>
+}
+
+</table>

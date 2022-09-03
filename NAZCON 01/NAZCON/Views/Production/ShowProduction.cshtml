@@ -1,0 +1,64 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.Production>
+
+@{
+    ViewBag.Title = "ShowProduction";
+}
+
+<h2>ShowProduction</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductionId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shiftinchargename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.totalproductionsteelapllets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.totalproductionunits)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductionId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shiftinchargename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalproductionsteelapllets)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalproductionunits)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.ProductionId }) |*@
+            @Html.ActionLink("Details", "Details", new { id=item.ProductionId }) |
+            @Html.ActionLink("Print", "ProductionReport", new { id=item.ProductionId})
+            @*@Html.ActionLink("Delete", "Delete", new { id=item.ProductionId })*@
+        </td>
+    </tr>
+}
+
+</table>

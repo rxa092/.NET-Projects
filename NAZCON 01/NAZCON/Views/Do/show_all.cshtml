@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.DoModel>
+
+@{
+    ViewBag.Title = "show_all";
+}
+
+<h2>Show All Delivery Order</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Do_number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Client)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Destination)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Created_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.remaining)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Item_Description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Do_number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Client)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Created_by)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.remaining)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Item_Description)
+        </td>
+        <td>
+            @Html.ActionLink("Print", "DOreport", new { id = item.Do_number })
+            @Html.ActionLink("Delete","DeleteDo" , new { id = item.Do_number})
+        </td>
+    </tr>
+}
+
+</table>

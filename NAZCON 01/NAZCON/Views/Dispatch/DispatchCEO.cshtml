@@ -1,0 +1,60 @@
+﻿@using NAZCON.Models.Business_Layer
+@using NAZCON.Models.EntityModel
+@using NAZCON.Models.ViewModel
+
+@{
+    ViewBag.Title = "DispatchCEO";
+}
+
+<h2>Dispatch Report</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Client_name, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            @Html.Label("Start Date", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.Client_name, new { htmlAttributes = new { @class = "form-control" } })*@
+                <input type="date" name="start" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Client_name, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            @Html.Label("End Date", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.Client_name, new { htmlAttributes = new { @class = "form-control" } })*@
+                <input type="date" name="end" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Client_name, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            @Html.Label("Client", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.Client_name, new { htmlAttributes = new { @class = "form-control" } })*@
+                <@Html.DropDownList("client" , new ClientBussiness().show_all().Select(ls => new SelectListItem() { Text = ls.Client_name, Value = ls.Client_id.ToString() }),new { htmlAttributes = new { @class = "form-control" } }) />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Client_name, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            @Html.Label("Product", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.Client_name, new { htmlAttributes = new { @class = "form-control" } })*@
+                <@Html.DropDownList("product" , new ItemBussiness().show_all().Select(ls => new SelectListItem() { Text = ls.description, Value = ls.id.ToString() }), new { htmlAttributes = new { @class = "form-control" } }) />
+
+            </div>
+        </div>
+
+        <div>
+            <input type="submit" value="Print Report" formaction="@Url.Action("CEODispatch")" />
+        </div>
+    </div>
+}
+

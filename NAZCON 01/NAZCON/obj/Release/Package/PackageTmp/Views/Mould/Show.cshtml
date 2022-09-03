@@ -1,0 +1,69 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.MouldModel>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dimension)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.vendorname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.statusname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lifecycle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dateofinstallation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mouldstdcycle)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dimension)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.vendorname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.statusname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lifecycle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateofinstallation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mouldstdcycle)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Update", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

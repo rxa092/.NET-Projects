@@ -1,0 +1,99 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.DcModel>
+
+@{
+    ViewBag.Title = "show_all";
+}
+
+<h2>All Delivery Challan</h2>
+
+<p>
+    @Html.ActionLink("Create New", "dc_update")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.dcno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.truck)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.no_of_pallets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.remarks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.im.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cm.Client_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cm.Date)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.dcno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.truck)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.no_of_pallets)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.remarks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.im.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cm.Client_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cm.Date)
+        </td>
+        <td>
+            @if (item.authorization.Trim() == "no")
+            {
+                @Html.ActionLink("Gate Pass", "gatepass_add", "GatePass", new { id = item.dcno }, "")
+            }
+            else
+            {
+                @Html.Label("Created");
+            }
+
+            @Html.ActionLink("Print", "DCreport", new { id = item.dcno })            
+            @Html.ActionLink("Delete", "DCreport", new { id = item.dcno })
+
+            
+
+            @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>*@
+    </tr>
+}
+
+</table>

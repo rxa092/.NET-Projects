@@ -1,0 +1,108 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.SoModel>
+
+@{
+    ViewBag.Title = "search";
+}
+
+<h2>search</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<input id="RBname" type="radio" name="radio" value="creditcard" onclick="check(this)" />
+<input id="RBID" type="radio" name="radio" value="creditcard" onclick="check(this)" />
+
+@*<div id="radio">
+    <input type="radio" id="radio1" name="radio" value="1" /><label for="radio1">Choice 1</label>
+    <input type="radio" id="radio2" name="radio" value="2" checked="checked" /><label for="radio2">Choice 2</label>
+    <input type="radio" id="radio3" name="radio" value="3" /><label for="radio3">Choice 3</label>
+</div>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.sono)
+        </th>
+      <!--  <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+       --> <th>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </th>
+   <!--     <th>
+            @Html.DisplayNameFor(model => model.tax)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.destination)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.total)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Item)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Created)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+       --> <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.sono)
+        </td>
+    <!--    <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+      -->  <td>
+            @Html.DisplayFor(modelItem => item.ClientName)
+        </td>
+     <!--   <td>
+            @Html.DisplayFor(modelItem => item.tax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.destination)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.total)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Item)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Created)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+      -->  <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
+
+<script>
+    function check(a) {
+        alert(a.id);
+    }
+</script>

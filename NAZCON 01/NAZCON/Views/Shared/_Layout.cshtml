@@ -1,0 +1,741 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Nazir Concrete</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .glyphicon {
+            margin-right: 10px;
+        }
+
+        .panel-body {
+            padding: 0px;
+        }
+
+            .panel-body table tr td {
+                padding-left: 15px;
+            }
+
+            .panel-body .table {
+                margin-bottom: 0px;
+            }
+    </style>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Nazir Concrete", "Index", "Dashboard", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.CheckPageAccess("AccountRegister"))
+                    {
+                        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                        @*<li>@Html.ActionLink("Change Password", "ChangePassword", "Manage", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+                    }
+                    @if (User.CheckPageAccess("Attendanceshow"))
+                    {
+                        <li>@Html.ActionLink("Attendance","Show","Attendance",routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                    }
+                    <li>@Html.ActionLink("Change Password", "ChangePassword", "Manage", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+                    @*
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin CONTAINER -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="panel-group" id="accordion">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <span class="glyphicon glyphicon-folder-close">
+                                    </span>Sales Order
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/SO/ShowSo">View Sales Order</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-file text-info"></span><a href="~/SO/So_add">Add Sales Order</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Delievery Order
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/DO/show_all">View Delievery Order</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <span class="glyphicon glyphicon-user">
+                                    </span>Delievery Challan
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/Dc/dc_update">Create Delievery Challan</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/Dc/show_all">View Delievery Challan</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                    <span class="glyphicon glyphicon-file">
+                                    </span>Gate Pass
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/GatePass/showAll_GP">View Gate Pass</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Client
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Client/client_add">Add Client</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Client/client_show">Show Client</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">
+                                    <span class="glyphicon glyphicon-asterisk">
+                                    </span>Employee
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse14" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/Employee/Show">View Employee</a>
+                                        </td>
+                                        </tr>
+                                    <tr>    
+                                    <td>
+                                            <span class="glyphicon glyphicon-pencil text-primary"></span><a href="~/Employee/Add">Add Employee</a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Items
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Item/add_item">Add Items</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Item/show_item">Show Items</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Vendor
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Vendor/Add">Add Vendor</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Vendor/Show">Show Vendor</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>All Transactions
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+
+                                <div class="panel-group" id="accordion2">
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
+                                                    <span class="glyphicon glyphicon-th">
+                                                    </span>Employee Transactions
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseNine" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table class="table">
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/EmpTransaction/Add">Add Employee Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/EmpTransaction/Show">Show Employee Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
+                                                    <span class="glyphicon glyphicon-th">
+                                                    </span>Client Transactions
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTen" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table class="table">
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/ClientTransaction/Add">Add Client Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/ClientTransaction/Show">Show Client Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
+                                                    <span class="glyphicon glyphicon-th">
+                                                    </span>Vendor Transactions
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse11" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table class="table">
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/VendorTransaction/Add">Add Vendor Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/VendorTransaction/Show">Show Vendor Transaction</a>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Inventory
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Inventory/Add">Add Non Selling Item</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Inventory/Show">Show Non Selling Item</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Item/ShowQuan">Show Selling Item</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Raw Material
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse21" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/RawMaterial/Add">Add Raw Material</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/RawMaterial/Show">Show Raw Material</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Stock Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse15" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/StockMovement/Add">Add Stock Report</a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/StockMovement/Show">Show Stock Report</a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Store Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse16" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/StoreTransaction/Add">Add Store Report</a>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/StoreTransaction/Show">Show Store Report</a>
+                                        </td>
+
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Production Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse17" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Production/AddProduction">Add Production</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Production/ShowProduction">Show Production</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Diesel Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse18" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Diesel/Add">Add Diesel Transaction</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Diesel/Filter">Show Diesel Transaction</a>
+                                        </td>
+                                        </tr>
+                                    <tr>    
+                                    <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Diesel/Fill">Fill Tank</a>
+                                        </td>
+                                        </tr>
+                                    <tr>    
+                                    <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Diesel/Dieselreport">Diesel Report</a>
+                                        </td>
+                                    </tr>
+                                    @if (User.CheckPageAccess("DieselDip"))
+                                    {<tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Diesel/dip">Dip Report</a>
+                                        </td>
+                                    </tr>}
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Dispatch Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse19" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Dispatch/Add">Add Dispatch</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Dispatch/Show">Show Dispatch</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Inward Raw Material
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse20" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/InwardRawMaterial/Add">Add Inward Raw Material</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/InwardRawMaterial/Show">Show Inward Raw Material</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/InwardRawMaterial/InwardReport">Inward Raw Material Report</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Cement Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse22" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Cement/Add">Add Cement report</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Cement/Show">Show Cement report</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Cement/Report">Print Cement Report</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    @if(User.CheckPageAccess("MouldReportAdd"))
+                    { 
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse23">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Mould Report
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse23" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Mould/Add">Add Mould</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Mould/Show">Show Mould</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/MouldStatus/Add">Add Mould Status</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/MouldStatus/Show">Show Mould Status</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/MouldReport/Add">Add Mould Report</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/MouldReport/Show">Show Mould Report</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Application Management
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse13" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Roles/AddPagesToRole">Add Pages To Role</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="glyphicon glyphicon-certificate text-primary"></span><a href="~/Roles/Index">Index</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-9 col-md-9">
+                <div>
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+
+    <div class="container-fluid body-content">
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Nazir Concrete</p>
+            <p>Developed By: <a href="https://www.facebook.com/mohd.rxa">Muhammad Raza</a></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@model NAZCON.Models.ViewModel.GetRolePagesViewModel
+
+@{
+    ViewBag.Title = "Manage Pages";
+}
+
+<h2>Manage role access on pages</h2>
+
+<div class="form-group">
+    <div class="col-md-10">
+        @Html.DropDownList("RolesDD", (IEnumerable<SelectListItem>)ViewBag.Roles, "Select Role", new { @class = "form-control" })
+    </div>
+</div>
+
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.SelectedRole)
+    <table class="table">
+        <tr>
+            <th>
+                Page Name
+            </th>
+            <th>
+                Access
+            </th>
+        </tr>
+        @Html.EditorFor(model => model.RolePages)
+    </table>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Submit" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#@Html.Id("RolesDD")").change(function Sec() {
+                var selectedItem = $(this).val();
+                var url = "/Roles/AddPagesToRole?id=" + selectedItem;
+                        window.location.href = url;
+            });
+        });
+
+    </script>
+}

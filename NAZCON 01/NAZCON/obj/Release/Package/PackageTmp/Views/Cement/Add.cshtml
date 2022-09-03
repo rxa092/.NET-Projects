@@ -1,0 +1,58 @@
+﻿@model NAZCON.Models.ViewModel.CementModel
+@using NAZCON.Models.Business_Layer
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add Cement Report</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.inwardid, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.inwardid, new InwardRawMaterialBusiness().ShowInwardRawMaterial().Select(ls => new SelectListItem() { Text = ls.ReferenceNo.ToString(), Value = ls.ReferenceNo.ToString() }), new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.inwardid, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.PlantLocation, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.PlantLocation, new PlantBusiness().AllPlants().Select(ls => new SelectListItem() { Text = ls.Name.ToString(), Value = ls.Name.ToString() }), new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.inwardid, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Silo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Silo, new SiloBusiness().AllSilo().Select(ls => new SelectListItem() { Text = ls.SiloNumber.ToString(), Value = ls.SiloId.ToString() }), new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Silo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Quality, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Quality, new CementBusiness().CementQuality().Select(ls => new SelectListItem() { Text = ls.Quality.ToString(), Value = ls.Quality.ToString() }), new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Quality, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

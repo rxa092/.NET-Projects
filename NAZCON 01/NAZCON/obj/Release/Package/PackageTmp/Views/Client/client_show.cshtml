@@ -1,0 +1,57 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.ClientModel>
+
+@{
+    ViewBag.Title = "client_show";
+}
+
+<h2>All Clients</h2>
+
+<p>
+    @Html.ActionLink("Create New", "client_add")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Client_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Client_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Client_contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Client_id)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client_contact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client_id)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "update", new { id = item.Client_id}) |
+                @Html.ActionLink("Delete", "del", new { id = item.Client_id })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.EmployeeModel>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>All Employees</h2>
+
+
+<table class="table">
+   
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nic)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.join)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dob)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.qualification)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.ename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.contact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nic)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.join)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dob)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.qualification)
+        </td>
+        <td>
+            @Html.ActionLink("Update", "update", new {   id=item.empid  /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "del", new {  id=item.empid   /* id=item.PrimaryKey */ }) 
+          
+        </td>
+    </tr>
+}
+
+</table>

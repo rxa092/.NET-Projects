@@ -1,0 +1,91 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.Diesel>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show Diesel Transaction</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vehicle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpeningDiesel)
+        </th>
+        <th>
+            @Html.DisplayName("Last Reading")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentReading)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DieselDispensery)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Balance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DipRecordin)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vehicle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleType)
+        </td>
+        @if(item.OpeningDiesel>0)
+        { 
+        <td>
+            @Html.DisplayFor(modelItem => item.OpeningDiesel)
+        </td>}
+        @if(item.OpeningDiesel==0)
+        {
+            <td></td>
+        }
+        <td>
+            @Html.DisplayFor(modelItem => item.LastReading)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentReading)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DieselDispensery)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Balance)
+        </td>
+        @if (item.DipRecordin > 0)
+        {<td>
+            @Html.DisplayFor(modelItem => item.DipRecordin)
+        </td>}
+        @if(item.DipRecordin==0)
+        {
+            <td></td>
+        }
+        <td>
+            @Html.ActionLink("Edit", "Update", new {id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

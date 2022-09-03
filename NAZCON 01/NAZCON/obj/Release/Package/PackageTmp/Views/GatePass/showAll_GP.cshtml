@@ -1,0 +1,89 @@
+﻿@model IEnumerable<NAZCON.Models.ViewModel.GpModel>
+
+@{
+    ViewBag.Title = "showAll_GP";
+}
+
+<h2>All Gate Pass</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cm.Client_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GPNO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dono)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.truck)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.im.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.no_of_pallets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.remarks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dcno)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cm.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cm.Client_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GPNO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dono)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.truck)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.im.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.no_of_pallets)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.remarks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GPNO)
+        </td>
+        <td>@Html.ActionLink("Print", "GPreport", new { id = item.GPNO })</td>
+        <td>@Html.ActionLink("Delete", "GPreport", new { id = item.GPNO })</td>
+        
+    </tr>
+}
+
+</table>

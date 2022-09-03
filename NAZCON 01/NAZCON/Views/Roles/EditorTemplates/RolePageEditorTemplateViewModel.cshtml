@@ -1,0 +1,12 @@
+﻿@model NAZCON.Models.ViewModel.RolePageEditorTemplateViewModel
+
+<tr>
+    <td>
+        @Html.HiddenFor(model => model.Pages.Id)
+        @Html.HiddenFor(model => model.Pages.PageName)
+        @Html.DisplayFor(model => model.Pages.PageName)
+    </td>
+    <td>
+        @Html.CheckBoxFor(model => model.Check)
+    </td>
+</tr>

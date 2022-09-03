@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{768A4308-735A-40E9-9C1D-0C8C3458EDAE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NAZCON</RootNamespace>
+    <AssemblyName>NAZCON</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WebForms.10.0.40219.1\lib\Microsoft.ReportViewer.WebForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="CementDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MVC\AttendanceController.cs" />
+    <Compile Include="Controllers\MVC\CementController.cs" />
+    <Compile Include="Controllers\MVC\ChequeController.cs" />
+    <Compile Include="Controllers\MVC\DcController.cs" />
+    <Compile Include="Controllers\MVC\DieselController.cs" />
+    <Compile Include="Controllers\MVC\DispatchController.cs" />
+    <Compile Include="Controllers\MVC\InwardRawMaterialController.cs" />
+    <Compile Include="Controllers\MVC\MouldController.cs" />
+    <Compile Include="Controllers\MVC\MouldReportController.cs" />
+    <Compile Include="Controllers\MVC\MouldStatusController.cs" />
+    <Compile Include="Controllers\MVC\ProductionController.cs" />
+    <Compile Include="Controllers\MVC\RawMaterialController.cs" />
+    <Compile Include="Controllers\MVC\StockMovementController.cs" />
+    <Compile Include="Controllers\MVC\StoreTransactionController.cs" />
+    <Compile Include="DieselDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DieselDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DispatchReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DispatchReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InwardrawMaterialDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InwardrawMaterialDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Business Layer\AttendanceBusiness.cs" />
+    <Compile Include="Models\Business Layer\CementBusiness.cs" />
+    <Compile Include="Models\Business Layer\DieselBusiness.cs" />
+    <Compile Include="Models\Business Layer\DIspatchBusiness.cs" />
+    <Compile Include="Models\Business Layer\InwardRawMaterialBusiness.cs" />
+    <Compile Include="Models\Business Layer\LocationBusiness.cs" />
+    <Compile Include="Models\Business Layer\MouldBusiness.cs" />
+    <Compile Include="Models\Business Layer\MouldReportBusiness.cs" />
+    <Compile Include="Models\Business Layer\MouldStatusBusiness.cs" />
+    <Compile Include="Models\Business Layer\PlantBusiness.cs" />
+    <Compile Include="Models\Business Layer\ProductionBusiness.cs" />
+    <Compile Include="Models\Business Layer\RawMaterialBusiness.cs" />
+    <Compile Include="Models\Business Layer\SiloBusiness.cs" />
+    <Compile Include="Models\Business Layer\StockMovementBusiness.cs" />
+    <Compile Include="Models\Business Layer\StoreReportModel.cs" />
+    <Compile Include="Models\Business Layer\StoretransactionBusiness.cs" />
+    <Compile Include="Models\connection.cs" />
+    <Compile Include="Controllers\MVC\AppAuth.cs" />
+    <Compile Include="Controllers\MVC\CheckAccess.cs" />
+    <Compile Include="Controllers\MVC\ClientTransactionController.cs" />
+    <Compile Include="Controllers\MVC\DashboardController.cs" />
+    <Compile Include="Controllers\MVC\DoController.cs" />
+    <Compile Include="Controllers\MVC\AccountController.cs" />
+    <Compile Include="Controllers\MVC\ClientController.cs" />
+    <Compile Include="Controllers\MVC\EmployeeController.cs" />
+    <Compile Include="Controllers\MVC\EmpTransactionController.cs" />
+    <Compile Include="Controllers\MVC\InventoryController.cs" />
+    <Compile Include="Controllers\MVC\RolesController.cs" />
+    <Compile Include="Controllers\MVC\VendorController.cs" />
+    <Compile Include="Controllers\MVC\VendorTransactionController.cs" />
+    <Compile Include="DeleieveryChallanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeleieveryChallanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryOrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeliveryOrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GPDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801101151144_Add pages table with relation of roles.cs" />
+    <Compile Include="Migrations\201801101151144_Add pages table with relation of roles.Designer.cs">
+      <DependentUpon>201801101151144_Add pages table with relation of roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Business Layer\ClientTransactionModel.cs" />
+    <Compile Include="Models\Business Layer\EmpTransactionBusiness.cs" />
+    <Compile Include="Models\Business Layer\InventoryBusiness.cs" />
+    <Compile Include="Models\Business Layer\ReportBusiness.cs" />
+    <Compile Include="Models\Business Layer\VendorBusiness.cs" />
+    <Compile Include="Models\Business Layer\VendorTransactionBusiness.cs" />
+    <Compile Include="Models\EmailManager.cs" />
+    <Compile Include="Models\EntityModel\Attendance.cs" />
+    <Compile Include="Models\EntityModel\ClientTransaction.cs" />
+    <Compile Include="Models\EntityModel\Diesel.cs" />
+    <Compile Include="Models\EntityModel\DieselConsumer.cs" />
+    <Compile Include="Models\EntityModel\DispatchReport.cs" />
+    <Compile Include="Models\EntityModel\EmpTransaction.cs" />
+    <Compile Include="Controllers\MVC\GatePassController.cs" />
+    <Compile Include="Controllers\MVC\ItemController.cs" />
+    <Compile Include="Controllers\MVC\ManageController.cs" />
+    <Compile Include="Controllers\MVC\ReportController.cs" />
+    <Compile Include="Controllers\MVC\SoController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Business Layer\ClientBussiness.cs" />
+    <Compile Include="Models\Business Layer\DcBusiness.cs" />
+    <Compile Include="Models\Business Layer\DoBussiness.cs" />
+    <Compile Include="Models\Business Layer\EmployeeBusiness.cs" />
+    <Compile Include="Models\Business Layer\GatepassBussiness.cs" />
+    <Compile Include="Models\Business Layer\ItemBussiness.cs" />
+    <Compile Include="Models\Business Layer\SoBusiness.cs" />
+    <Compile Include="Models\EntityModel\EmployeeModel.cs" />
+    <Compile Include="Models\EntityModel\Inventory.cs" />
+    <Compile Include="Models\EntityModel\InwardRawMaterial.cs" />
+    <Compile Include="Models\EntityModel\ItemModel.cs" />
+    <Compile Include="Models\EntityModel\Location.cs" />
+    <Compile Include="Models\EntityModel\MouldReport.cs" />
+    <Compile Include="Models\EntityModel\MouldStatusModel.cs" />
+    <Compile Include="Models\EntityModel\Page.cs" />
+    <Compile Include="Models\EntityModel\PlantModel.cs" />
+    <Compile Include="Models\EntityModel\RawMaterial.cs" />
+    <Compile Include="Models\EntityModel\Role.cs" />
+    <Compile Include="Models\EntityModel\Silo.cs" />
+    <Compile Include="Models\EntityModel\StockMOvementModel.cs" />
+    <Compile Include="Models\EntityModel\StockReportModel.cs" />
+    <Compile Include="Models\EntityModel\StoreTransaction.cs" />
+    <Compile Include="Models\EntityModel\VendorModel.cs" />
+    <Compile Include="Models\EntityModel\VendorTransactionModel.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\EntityModel\ClientModel.cs" />
+    <Compile Include="Models\ViewModel\CementModel.cs" />
+    <Compile Include="Models\ViewModel\DcModel.cs" />
+    <Compile Include="Models\ViewModel\DelieveryChallanReportModel.cs" />
+    <Compile Include="Models\ViewModel\DelieveryOrderReportModel.cs" />
+    <Compile Include="Models\ViewModel\DoModel.cs" />
+    <Compile Include="Models\ViewModel\GatePassReportModel.cs" />
+    <Compile Include="Models\ViewModel\GetRolePagesViewModel.cs" />
+    <Compile Include="Models\ViewModel\GpModel.cs" />
+    <Compile Include="Models\EntityModel\MouldModel.cs" />
+    <Compile Include="Models\ViewModel\Production.cs" />
+    <Compile Include="Models\ViewModel\ProductionRawMaterial.cs" />
+    <Compile Include="Models\ViewModel\RolePageEditorTemplateViewModel.cs" />
+    <Compile Include="Models\ViewModel\SalesOrderReportModel.cs" />
+    <Compile Include="Models\ViewModel\SoModel.cs" />
+    <Compile Include="nazeer_concreteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nazeer_concreteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProductionReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProductionReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesOrderDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesOrderDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="StockReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Graphic11.gif" />
+    <Content Include="Content\Logo.jpg" />
+    <Content Include="Content\pie-chart.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DeleieveryChallanDataSet.xsc">
+      <DependentUpon>DeleieveryChallanDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="CementDataSet.xsc">
+      <DependentUpon>CementDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <None Include="CementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CementDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="CementDataSet.xss">
+      <DependentUpon>CementDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="DeleieveryChallanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeleieveryChallanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DeleieveryChallanDataSet.xss">
+      <DependentUpon>DeleieveryChallanDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="DeliveryOrderDataSet.xsc">
+      <DependentUpon>DeliveryOrderDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="DeliveryOrderDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeliveryOrderDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DeliveryOrderDataSet.xss">
+      <DependentUpon>DeliveryOrderDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="SalesOrderDataSet1.xsc">
+      <DependentUpon>SalesOrderDataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="GPDataSet.xsc">
+      <DependentUpon>GPDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="DieselDataSet.xsc">
+      <DependentUpon>DieselDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="DieselDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DieselDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DieselDataSet.xss">
+      <DependentUpon>DieselDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="DispatchReportDataSet.xsc">
+      <DependentUpon>DispatchReportDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="DispatchReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DispatchReportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="DispatchReportDataSet.xss">
+      <DependentUpon>DispatchReportDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="GPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GPDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="GPDataSet.xss">
+      <DependentUpon>GPDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="nazeer_concreteDataSet.xsc">
+      <DependentUpon>nazeer_concreteDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="InwardrawMaterialDataSet.xsc">
+      <DependentUpon>InwardrawMaterialDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="InwardrawMaterialDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InwardrawMaterialDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="InwardrawMaterialDataSet.xss">
+      <DependentUpon>InwardrawMaterialDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="nazeer_concreteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>nazeer_concreteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="nazeer_concreteDataSet.xss">
+      <DependentUpon>nazeer_concreteDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="ProductionReportDataSet.xsc">
+      <DependentUpon>ProductionReportDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="ProductionReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProductionReportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="ProductionReportDataSet.xss">
+      <DependentUpon>ProductionReportDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="Properties\PublishProfiles\Nazir.pubxml" />
+    <None Include="SalesOrderDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesOrderDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="SalesOrderDataSet1.xss">
+      <DependentUpon>SalesOrderDataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\So\So_add.cshtml" />
+    <Content Include="Views\So\So_view.cshtml" />
+    <Content Include="Views\Client\client_add.cshtml" />
+    <Content Include="Views\Client\client_delete.cshtml" />
+    <Content Include="Views\So\ShowSo.cshtml" />
+    <Content Include="Views\Client\client_show.cshtml" />
+    <Content Include="Views\Client\update.cshtml" />
+    <Content Include="Views\So\search.cshtml" />
+    <Content Include="Views\Dc\dc_update.cshtml" />
+    <Content Include="Views\Do\show_all.cshtml" />
+    <Content Include="Views\Dc\show_all.cshtml" />
+    <Content Include="Views\Item\add_item.cshtml" />
+    <Content Include="Views\Item\show_item.cshtml" />
+    <Content Include="Views\Item\update_item.cshtml" />
+    <Content Include="Views\GatePass\showAll_GP.cshtml" />
+    <Content Include="Views\Dc\msg.cshtml" />
+    <Content Include="Views\Employee\Add.cshtml" />
+    <Content Include="Views\Employee\Show.cshtml" />
+    <Content Include="Views\Employee\update.cshtml" />
+    <Content Include="Views\ClientTransaction\Add.cshtml" />
+    <Content Include="Views\ClientTransaction\Show.cshtml" />
+    <Content Include="Views\EmpTransaction\Add.cshtml" />
+    <Content Include="Views\EmpTransaction\Show.cshtml" />
+    <Content Include="Views\Vendor\Add.cshtml" />
+    <Content Include="Views\Vendor\Show.cshtml" />
+    <Content Include="Views\Vendor\Update.cshtml" />
+    <Content Include="Views\VendorTransaction\Add.cshtml" />
+    <Content Include="Views\VendorTransaction\Show.cshtml" />
+    <Content Include="Views\Item\ShowQuan.cshtml" />
+    <Content Include="Views\Roles\AddPagesToRole.cshtml" />
+    <Content Include="Views\Roles\Edit.cshtml" />
+    <Content Include="Views\Roles\Index.cshtml" />
+    <Content Include="Views\Account\Message.cshtml" />
+    <Content Include="Views\Item\UpdQuan.cshtml" />
+    <Content Include="Views\Inventory\Add.cshtml" />
+    <Content Include="Views\Inventory\Show.cshtml" />
+    <Content Include="Views\Roles\EditorTemplates\RolePageEditorTemplateViewModel.cshtml" />
+    <Content Include="Views\Shared\_AccountLayout.cshtml" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\StockMovement\Add.cshtml" />
+    <Content Include="Views\StockMovement\Show.cshtml" />
+    <Content Include="Views\StoreTransaction\Show.cshtml" />
+    <Content Include="Views\StoreTransaction\Add.cshtml" />
+    <Content Include="StockReportDataSet.xsc">
+      <DependentUpon>StockReportDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="StockReportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StockReportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="StockReportDataSet.xss">
+      <DependentUpon>StockReportDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="StoreDataSet.xsc">
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="StoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="StoreDataSet.xss">
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Views\Diesel\Add.cshtml" />
+    <Content Include="Views\Diesel\Fill.cshtml" />
+    <Content Include="Views\Diesel\Show.cshtml" />
+    <Content Include="Views\Diesel\Dieselreport.cshtml" />
+    <Content Include="Views\Production\AddProduction.cshtml" />
+    <Content Include="Views\Production\ShowProduction.cshtml" />
+    <Content Include="Views\Production\Details.cshtml" />
+    <Content Include="Views\RawMaterial\Add.cshtml" />
+    <Content Include="Views\RawMaterial\Show.cshtml" />
+    <Content Include="Views\RawMaterial\Update.cshtml" />
+    <Content Include="Views\Dispatch\Add.cshtml" />
+    <Content Include="Views\Dispatch\Show.cshtml" />
+    <Content Include="Views\InwardRawMaterial\Add.cshtml" />
+    <Content Include="Views\InwardRawMaterial\Show.cshtml" />
+    <Content Include="Views\Inventory\Update.cshtml" />
+    <Content Include="Views\InwardRawMaterial\InwardReport.cshtml" />
+    <Content Include="Views\Attendance\Show.cshtml" />
+    <Content Include="Views\Diesel\Update.cshtml" />
+    <Content Include="Views\Cement\Add.cshtml" />
+    <Content Include="Views\Cement\Show.cshtml" />
+    <Content Include="Views\Cement\Update.cshtml" />
+    <Content Include="Views\Cement\Report.cshtml" />
+    <Content Include="Views\Dispatch\DispatchCEO.cshtml" />
+    <Content Include="Views\Dispatch\CEODispatch.cshtml" />
+    <Content Include="Views\Diesel\dip.cshtml" />
+    <Content Include="Views\Diesel\dipchart.cshtml" />
+    <Content Include="Views\Diesel\FIlter.cshtml" />
+    <Content Include="Views\Diesel\ErrorMessage.cshtml" />
+    <Content Include="Views\InwardRawMaterial\Update.cshtml" />
+    <Content Include="Views\Mould\Add.cshtml" />
+    <Content Include="Views\Mould\Show.cshtml" />
+    <Content Include="Views\Mould\Update.cshtml" />
+    <Content Include="Views\MouldStatus\Add.cshtml" />
+    <Content Include="Views\MouldStatus\Show.cshtml" />
+    <Content Include="Views\MouldStatus\Update.cshtml" />
+    <Content Include="Views\MouldReport\Add.cshtml" />
+    <Content Include="Views\MouldReport\Show.cshtml" />
+    <Content Include="Views\MouldReport\Update.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\API\" />
+    <Folder Include="Views\Cheque\" />
+    <Folder Include="Views\Report\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201801101151144_Add pages table with relation of roles.resx">
+      <DependentUpon>201801101151144_Add pages table with relation of roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Reports\DelieveryChallanReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\GatePassReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\SalesOrderReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\DOReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Reports\CementReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ChequeReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DieselReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DipatchReportWithoutRate.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DIpatchReportWithRate.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InwardRawMaterial.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MouldReport.rdlc" />
+    <EmbeddedResource Include="Reports\ProductionReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\StockReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\StoreReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57185</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:20578/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

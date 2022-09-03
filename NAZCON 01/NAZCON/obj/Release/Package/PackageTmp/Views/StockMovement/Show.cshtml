@@ -1,0 +1,61 @@
+﻿@model IEnumerable<NAZCON.Models.EntityModel.StockMOvementModel>
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show Stock Report</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.item.description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stockin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stockout)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.broken)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.item.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stockin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stockout)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.broken)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.balance)
+        </td>
+        <td>
+            @Html.ActionLink("Print", "StockMovementReport", new { id=item.Id })         
+        </td>
+    </tr>
+}
+
+</table>
