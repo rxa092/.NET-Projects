@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitchen", "Kitchen\Kitchen.csproj", "{D74464FE-6BF3-4452-9644-5D870755CE44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D74464FE-6BF3-4452-9644-5D870755CE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74464FE-6BF3-4452-9644-5D870755CE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74464FE-6BF3-4452-9644-5D870755CE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74464FE-6BF3-4452-9644-5D870755CE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196C2614-B4A6-4217-BF77-0C07F0F10512}
+	EndGlobalSection
+EndGlobal
